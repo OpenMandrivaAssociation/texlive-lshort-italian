@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /info/lshort/italian
+# catalog-date 2007-01-01 00:42:16 +0100
+# catalog-license gpl
+# catalog-version undef
 Name:		texlive-lshort-italian
 Version:	20070101
 Release:	1
@@ -27,6 +33,7 @@ LaTeX2e.
 %doc %{_texmfdistdir}/doc/latex/lshort-italian/fixdate.pl
 %doc %{_texmfdistdir}/doc/latex/lshort-italian/itlshort.pdf
 %doc %{_texmfdistdir}/doc/latex/lshort-italian/src.zip
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -37,3 +44,5 @@ LaTeX2e.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
