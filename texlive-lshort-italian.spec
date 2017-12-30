@@ -5,8 +5,8 @@
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-lshort-italian
-Version:	20070101
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Introduction to LaTeX in Italian
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/italian
