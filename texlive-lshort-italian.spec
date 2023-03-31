@@ -1,6 +1,6 @@
 Name:		texlive-lshort-italian
 Version:	57038
-Release:	1
+Release:	2
 Summary:	Introduction to LaTeX in Italian
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/italian
