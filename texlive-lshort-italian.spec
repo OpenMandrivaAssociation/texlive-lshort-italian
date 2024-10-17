@@ -3,7 +3,7 @@ Version:	57038
 Release:	2
 Summary:	Introduction to LaTeX in Italian
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/lshort/italian
+URL:		https://www.ctan.org/tex-archive/info/lshort/italian
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-italian.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-italian.doc.r%{version}.tar.xz
